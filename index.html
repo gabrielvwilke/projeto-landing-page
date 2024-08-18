@@ -1,58 +1,121 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crie seu e-commerce em 3 passos rápidos - Shopify Brasil</title>
-    <style> 
-       .image-container1 {
-            position: relative; 
-            border-radius: 5px;
-            overflow: hidden;
-            width: 50%; 
-            height: 50%;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .image-container .text {
-            position: absolute;
-            top: 10%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            color: white; 
-            font-size: 32px; 
-            font-weight: bold; 
-            text-align: center; 
-            background-color: rgba(0, 0, 0, 0); 
-            padding: 8px; 
-        }
-        .image-container .text2 {
-            position: absolute;
-            top: 13.5%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            color: white; 
-            font-size: 15px; 
-            font-weight: bold; 
-            text-align: center; 
-            background-color: rgba(0, 0, 0, 0);
-        }
-        .image-container2 { 
-            width: 70px; 
-            height: auto; 
-            margin: 0 auto; 
-            display: block; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="image-container1">
-        <img src="img/imagem topo.svg" class="object-fit-sm-contain border rounded" alt="Imagem topo">
-        <h1 class="text">Monte o seu e-commerce em apenas 3 passos</h1>
-        <h6 class="text2">Milhões de empresas no mundo inteiro confiam na Shopify</h6>
-        <div class="image-container2">
-            <img src="img/imagem centro.webp" class="object-fit-sm-contain border rounded" alt="Imagem centro">
+    <header>
+        <div id="topo">
+            <img src="img/imagem topo.svg" alt="topo">
         </div>
-    </header>
+        <section class="hero">
+            <img src="img/Shopify-Logo.png" alt="Logo">
+            <h1>Monte seu e-commerce em apenas 3 passos</h1>
+            <p>Milhões de empresas no mundo inteiro confiam na Shopify</p>
+            <section id="signup">
+                <form>
+                    <div class="input-container">
+                        <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+                        <button type="submit">Começar a avaliação gratuita</button>
+                    </div>
+                </form>
+                <div class="input-text">
+                    <h5>Ao digitar seu e-mail, você concorda em receber e-mails de marketing da Shopify.</h5>
+                </div>
+            </section>           
+        </section>
+    </header> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="image-container">          
+        <img src="img/imagem centro.webp" alt="Imagem Centro" class="overlay-image">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section class="columns">
+        <div class="column">      
+        <img src="img/tela.svg" alt="Imagem 1" class="column-image">
+            <h3>1 Escolha e personalize um tema</h3>
+            <p>Customize o visual da sua loja mesmo sem saber um pingo de design: é só usar um dos nossos milhares de temas.</p>
+        </div>
+        <div class="column">
+            <img src="img/etiqueta.svg" alt="Imagem 2" class="column-image">
+            <h3>2 Adicione produtos</h3>
+            <p>Coloque seus produtos na "prateleira virtual", informe os preços e capriche nas fotos e descrições de cada item.</p>
+        </div>
+        <div class="column">
+            <img src="img/caminhao.png" alt="Imagem 3" class="column-image">
+            <h3>3 Comece a vender</h3>
+            <p>Configure as formas de pagamento e as opções de frete para começar a vender!</p>
+        </div>
+    </section>
+    <hr>
+    <div class="container">
+        <div class="coluna">      
+            <img src="img/logo sallve.svg" alt="Imagem 1">
+        </div>
+        <div class="coluna">
+            <img src="img/logo glambox.svg" alt="Imagem 2">
+        </div>
+        <div class="coluna">
+            <img src="img/logo biossance.svg" alt="Imagem 3">
+        </div>
+        <div class="coluna">      
+            <img src="img/zissou.svg" alt="Imagem 4">
+        </div>
+        <div class="coluna">
+            <img src="img/logo grand cru.svg" alt="Imagem 5">
+        </div>
+        <div class="coluna">
+            <img src="img/logo debetti.svg" alt="Imagem 6">
+        </div>
+        <div class="coluna">      
+            <img src="img/logo pantynova.svg" alt="Imagem 7">
+        </div>
+        <div class="coluna">
+            <img src="img/logo mens market.svg" alt="Imagem 8">
+        </div>
+        <div class="coluna">
+            <img src="img/logo kings.svg" alt="Imagem 9">
+        </div>
+    </div>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>"A Shopify está milhões de anos à frente das plataformas para site de e-commerce que usei no Brasil."</h3>
+    <br>
+    <h4>FLAVIO FERES, FUNDADOR DA VESTEM</h4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="signdown">
+        <div class="input-container">
+        <button type="submit">Começar a avaliação gratuita</button>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <ul>
+            <li><a href="#">Termos de serviço</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Mapa do site</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
